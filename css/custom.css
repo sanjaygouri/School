@@ -1,0 +1,102 @@
+
+/*
+Nav bar background 
+*/
+.cusnav{
+background-color:#2a4d69;
+height:70px;
+width: 100%;
+}
+.cusnav a{
+
+color:#e7eff6;
+
+}
+
+.cusnav button{
+color:white;
+
+}
+.footernav{
+
+background-color:#2a4d69;
+height:relative;
+position: relative;
+
+border-bottom-color:#fbddf6; 
+
+
+}
+
+.footernav ul{
+
+list-style: none;
+margin-top: 20px;
+text-align: left;
+color:#e7eff6;
+}
+.footernav a{
+color:#e7eff6;
+
+}
+.footernav h4{
+margin-top: 20px;
+text-align: left;
+color:#e7eff6;
+}
+.socialnav{
+position: relative;
+background-color:#2a4d69;
+height:70px;
+
+
+}
+
+.socialnav ul {
+
+	list-style: none;
+	display: inline-flex;
+
+}
+
+
+.socialnav ul li{
+position: relative;
+padding-right:32px;
+}
+
+.socialnav  a{
+text-decoration: none;
+color:#f6f1f4;
+}
+
+.socialnav h5{
+color:#f6f1f4;
+margin-top: 10px;
+}
+
+
+
+
+@media (max-width:700px){
+.imgcss{
+
+width:60%;
+}
+
+
+.logocss{
+display:inline-flex;
+
+}
+.collapse{
+z-index : 2;
+}
+
+@media (max-width:900px){
+
+.navbar-toggler{
+color:#e7eff6 !important;
+}
+
+}
